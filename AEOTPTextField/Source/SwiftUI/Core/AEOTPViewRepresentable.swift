@@ -77,6 +77,7 @@ struct AEOTPViewRepresentable: UIViewRepresentable {
         )
         
         textField.keyboardType = keyboardType
+        textField.textContentType = .oneTimeCode
     }
     
     func makeCoordinator() -> Coordinator {
